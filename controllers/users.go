@@ -12,3 +12,11 @@ func GetUsers(ctx *gin.Context) {
 
 	ctx.JSON(http.StatusOK, gin.H{"data": users})
 }
+
+func GetUser(ctx *gin.Context) {}
+
+func CreateUser(ctx *gin.Context) {}
+
+func UpdateUser(ctx *gin.Context) {}
+
+func DeleteUser(cxt *gin.Context) {}
