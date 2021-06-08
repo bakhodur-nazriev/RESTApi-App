@@ -26,11 +26,11 @@ func main() {
 	req.DELETE("/books/:id", controllers.DeleteBook)
 
 	/* Authors Routes */
-	req.GET("/books", controllers.GetAuthors)
-	req.GET("/books/:id", controllers.GetAuthor)
-	req.POST("/books", controllers.CreateAuthor)
-	req.PATCH("/books/:id", controllers.UpdateAuthor)
-	req.DELETE("/books/:id", controllers.DeleteAuthor)
+	req.GET("/authors", controllers.GetAuthors)
+	req.GET("/authors/:id", controllers.GetAuthor)
+	req.POST("/authors", controllers.CreateAuthor)
+	req.PATCH("/authors/:id", controllers.UpdateAuthor)
+	req.DELETE("/authors/:id", controllers.DeleteAuthor)
 
 	req.Run(":8080")
 }
